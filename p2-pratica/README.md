@@ -1,7 +1,7 @@
 **Integrantes (Nome - RA):**
 * Murillo Pinheiro de Oliveira - 1999341
 * Lucas Spila Sereno - 1996727
-* Gustavo Marques Martins - 
+* Gustavo Marques Martins - 1992106
 
 **SGDB:**
 MySQL
