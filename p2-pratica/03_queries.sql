@@ -52,9 +52,10 @@ SELECT
     p.estado,
     COUNT(*) AS total
 FROM pedido AS p
-JOIN pagamento AS pg
+LEFT JOIN pagamento AS pg
     ON pg.id_pedido = p.id
-WHERE pg.data_pagamento >= '2024-01-01' and pg.data_pagamento < '2024-02-01'
+     AND pg.data_pagamento >= '2024-01-01'
+     AND pg.data_pagamento <  '2024-02-01'
 GROUP BY p.estado
 ORDER BY total DESC;
 
